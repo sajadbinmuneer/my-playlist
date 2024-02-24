@@ -1,0 +1,55 @@
+.h-100vh {
+    height: 100vh;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.playlist {
+    height: calc(100vh - 50vh);
+    overflow-y: auto;
+}
+
+.playlist::-webkit-scrollbar {
+    width: 5px;
+}
+
+.playlist::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 25px
+}
+
+
+.playlist::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 25px
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.add-buttton {
+    background-color: #1C6DD0;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.add-buttton:hover {
+    background-color: #11468F;
+    color: #ffffff;
+}
+
+audio {
+    width: 50vw;
+}
+
+@media screen and (max-width:500px) {
+    audio {
+        width: 100%;
+    }
+}
